@@ -77,5 +77,7 @@ def index():
     # 'StPimsApiPartnerKey':'XXXXXXXX', 'UserCredentials':{'Login':'login',
     # 'Password':'password' }, 'P2pCardNumber':'CARD_NUMBER', 'Lang':'EN' }])
 
+
+    # Return JSON
     return serialize_object(result, dict)
 
